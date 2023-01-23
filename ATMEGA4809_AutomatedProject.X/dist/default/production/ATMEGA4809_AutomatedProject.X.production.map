@@ -370,10 +370,10 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x29a0
+.debug_info     0x0000000000000000     0x29b1
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000     0x248a C:/Program Files/Microchip/MPLABX/v6.05.02.6747/packs/Microchip/ATmega_DFP/3.1.263/xc8/avr/lib/avrxmega3/crtatmega4809.o
- .debug_info    0x000000000000248a      0x516 build/default/production/newmain.o
+ .debug_info    0x000000000000248a      0x527 build/default/production/newmain.o
 
 .debug_abbrev   0x0000000000000000     0x2397
  *(.debug_abbrev)
@@ -422,7 +422,7 @@ END GROUP
 
 .debug_macro
  *(.debug_macro)
-OUTPUT(dist/default/production/ATMEGA4809.X.production.elf elf32-avr)
+OUTPUT(dist/default/production/ATMEGA4809_AutomatedProject.X.production.elf elf32-avr)
 LOAD linker stubs
 LOAD data_init
 

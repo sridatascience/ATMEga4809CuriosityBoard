@@ -3,8 +3,8 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>ATMEGA4809</name>
-            <creation-uuid>42117339-8739-4452-88f2-4276d67ea9fe</creation-uuid>
+            <name>ATMEGA4809_AutomatedProject</name>
+            <creation-uuid>10183a76-5a83-434c-a4a4-af553e4a623c</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
