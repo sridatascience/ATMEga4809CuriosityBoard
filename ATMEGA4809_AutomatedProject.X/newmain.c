@@ -17,6 +17,7 @@ int add(uint8_t n, uint8_t o, uint8_t p ){
 int main() {
    volatile uint8_t a = 0x05;
    PORTA.DIR = a;
+   m = PORTA.DIR;
    volatile uint8_t c = 0x1F;
    PORTB.DIR = c;
    volatile uint8_t b =0x08;
