@@ -12,6 +12,7 @@
 uint8_t m =10;
 int add(uint8_t n, uint8_t o, uint8_t p ){
    _NOP();
+   _NOP();
    return n+o+p;
 }
 int main() {
