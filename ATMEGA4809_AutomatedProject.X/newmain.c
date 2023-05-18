@@ -10,7 +10,7 @@
 #include <avr/cpufunc.h>
 
 uint8_t m =10;
-int add(uint8_t n, uint8_t o, uint8_t p ){
+int add(volatile uint8_t n, volatile uint8_t o, volatile uint8_t p ){
    _NOP();
    _NOP();
    return n+o+p;
